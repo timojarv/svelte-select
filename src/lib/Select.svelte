@@ -675,7 +675,7 @@
     class:show-chevron={showChevron}
     class:error={hasError}
     style={containerStyles}
-    on:pointerup|preventDefault={handleClick}
+    on:click|preventDefault={handleClick}
     on:mousedown|preventDefault
     bind:this={container}
     use:floatingRef>

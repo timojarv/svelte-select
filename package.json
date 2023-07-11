@@ -1,6 +1,6 @@
 {
   "name": "@timojarv/svelte-select",
-  "version": "5.6.1",
+  "version": "5.6.2",
   "repository": {
     "type": "git",
     "url": "git+https://rob-balfre@github.com/rob-balfre/svelte-select.git"

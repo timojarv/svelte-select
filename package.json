@@ -1,7 +1,10 @@
 {
-  "name": "svelte-select",
+  "name": "@timojarv/svelte-select",
   "version": "5.6.1",
-  "repository": "https://rob-balfre@github.com/rob-balfre/svelte-select.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://rob-balfre@github.com/rob-balfre/svelte-select.git"
+  },
   "description": "A <Select> component for Svelte apps",
   "scripts": {
     "dev": "vite dev",
@@ -66,5 +69,14 @@
   "dependencies": {
     "@floating-ui/dom": "^1.2.1",
     "svelte-floating-ui": "1.2.8"
+  },
+  "bugs": {
+    "url": "https://github.com/rob-balfre/svelte-select/issues"
+  },
+  "homepage": "https://github.com/rob-balfre/svelte-select#readme",
+  "main": "rollup.config.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
